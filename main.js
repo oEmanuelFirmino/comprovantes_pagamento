@@ -1,11 +1,13 @@
-const nomePagador = document.querySelector("#nomePagador").value
-const nomeRecebedor = document.querySelector("#nomeRecebedor").value
-const data = document.querySelector("#data").value.toString()
-const valor = document.querySelector("#valor").value
 
 function gerarPdf() {
 
+    const nomePagador = document.querySelector("#nomePagador").value
+    const nomeRecebedor = document.querySelector("#nomeRecebedor").value
+    const data = document.querySelector("#data").value.toString()
+    const valor = document.querySelector("#valor").value
+
     var doc = new jsPDF();
+
 
     // Texto que deve estar no PDF
     doc.text("Comprovante de pagamento", 70, 10);
