@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Teste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <h1>Teste</h1>
+
+    <form action="mudaInfoPDF" class="form">
+        <article>
+            <label for="name">Quem pagou:</label>
+            <input type="text" name="nome" id="nomePagador" class="input">
+        </article>
+        <article>
+            <label for="name">Quem recebeu:</label>
+            <input type="text" name="nome" id="nomeRecebedor" class="input">
+        </article>
+        <article>
+            <label for="data">Data:</label>
+            <input type="date" name="data" id="data" class="input">
+        </article>
+        <article>
+            <label for="valor">Valor pago:</label>
+            <input type="text" name="valor" id="valor" class="input">
+        </article>
+    </form>
+    <button onclick="gerarPdf()" class="btn">Gerar PDF</button>
+
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/1.5.3/jspdf.debug.js"
+        integrity="sha384-NaWTHo/8YCBYJ59830LTz/P4aQZK1sS0SneOgAvhsIl3zBu8r9RevNg5lHCHAuQ/"
+        crossorigin="anonymous"></script>
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>
