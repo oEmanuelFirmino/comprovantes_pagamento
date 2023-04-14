@@ -10,26 +10,27 @@
 <body>
 
     <h1>Teste</h1>
-
-    <form action="mudaInfoPDF" class="form">
-        <article>
-            <label for="name">Quem pagou:</label>
-            <input type="text" name="nome" id="nomePagador" class="input">
-        </article>
-        <article>
-            <label for="name">Quem recebeu:</label>
-            <input type="text" name="nome" id="nomeRecebedor" class="input">
-        </article>
-        <article>
-            <label for="data">Data:</label>
-            <input type="date" name="data" id="data" class="input">
-        </article>
-        <article>
-            <label for="valor">Valor pago:</label>
-            <input type="text" name="valor" id="valor" class="input">
-        </article>
-    </form>
-    <button onclick="gerarPdf()" class="btn">Gerar PDF</button>
+    <main>
+        <form action="mudaInfoPDF" class="form">
+            <article>
+                <label for="name">Quem pagou:</label>
+                <input type="text" name="nome" id="nomePagador" class="input">
+            </article>
+            <article>
+                <label for="name">Quem recebeu:</label>
+                <input type="text" name="nome" id="nomeRecebedor" class="input">
+            </article>
+            <article>
+                <label for="data">Data:</label>
+                <input type="date" name="data" id="data" class="input">
+            </article>
+            <article>
+                <label for="valor">Valor pago:</label>
+                <input type="text" name="valor" id="valor" class="input">
+            </article>
+        </form>
+        <button onclick="gerarPdf()" class="btn">Gerar PDF</button>
+    </main>
 
 
 
