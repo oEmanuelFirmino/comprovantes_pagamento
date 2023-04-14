@@ -13,9 +13,6 @@ function gerarPdf() {
     doc.text(nomeRecebedor, 10, 40);
     doc.text(valor, 10, 50);
     doc.text(data, 10, 60);
-
-    doc.
-
-        // Gerar PDF
-        doc.save('comprovante.pdf');
+    // Gerar PDF
+    doc.save('comprovante.pdf');
 }
