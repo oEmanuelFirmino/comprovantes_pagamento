@@ -7,6 +7,10 @@
     font-family: "Inter", sans-serif;
   }
 
+  #myfile {
+    width: 30px;
+  }
+
   h1 {
     font-size: 3.5rem;
     text-align: center;
@@ -83,6 +87,16 @@
     font-family: "Inter", sans-serif;
   }
 
+  #myfile {
+    width: 100px;
+  }
+
+  header {
+    display: flex;
+    justify-content: center;
+    column-gap: 0;
+  }
+
   h1 {
     font-size: 2rem;
     text-align: center;
@@ -90,7 +104,7 @@
     text-transform: inherit;
     font-family: "Poppins", sans-serif;
     font-weight: 400;
-    padding: 20px;
+    padding: 20px 10px;
   }
 
   main {
@@ -98,7 +112,7 @@
     flex-direction: column;
     align-items: center;
     justify-items: center;
-    gap: 50px;
+    gap: 20px;
   }
 
   article {
